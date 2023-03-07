@@ -1,0 +1,24 @@
+.bckgrnd_cont{
+    border-color: var(--borderColor);
+    border-width:4px;
+    border-radius:8px;
+    border-style: solid;
+    margin-top:72px;
+    margin-left:20px;
+    margin-right:20px;
+   
+  }
+ .load{
+   position: absolute;
+   top:50%;
+   bottom:50%;
+   margin-left: 700px;
+   text-align: center;
+ }
+ @media (max-width:912px){
+    .bckgrnd_cont{
+      
+        margin-top:70px;
+       
+      }
+ }

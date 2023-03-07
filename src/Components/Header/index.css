@@ -1,0 +1,13 @@
+.header_cont{
+    background-color: var(--backgrndColor);
+    display: flex;
+    justify-content: space-around;
+    padding:15px;
+    top:0;
+    position:fixed;
+    width:100%;
+}
+h1{
+    font-weight:normal; 
+    text-decoration: none;
+}
