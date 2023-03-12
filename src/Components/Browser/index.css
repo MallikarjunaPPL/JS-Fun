@@ -1,0 +1,57 @@
+.brow_cont{
+    display: flex;
+   justify-content: space-between;
+    margin-top:50px;
+}
+.img_styling{
+    height:40px;
+    width:50px;
+   
+}
+.delete_sty{
+    margin-right:50px;
+    background-color: white; 
+    border-width: 0px;
+    height:40px;
+    width:30px;
+}
+.para_sear{
+    font-family:"Adobe Arabic";
+ font-size:18px;
+ margin-top:10px;
+ margin-left:8px;
+}
+.sear_head{
+ font-family:"Adobe Arabic";
+ font-size:22px;
+ margin-top:6px;
+ margin-left:10px;
+ color:darkmagenta;
+ font-weight: 800;
+}
+.content{
+    display: flex;
+   width:40%;
+   text-align: center;
+}
+
+@media (max-width:912px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       width:30%;
+       text-align: center;
+    }
+    .img_styling{
+        height:40px;
+        width:50px;
+       margin-left:40px;
+    }
+    .brow_cont{
+        display: flex;
+       justify-content: space-around;
+        margin-top:50px;
+    }
+    
+}

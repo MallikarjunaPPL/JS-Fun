@@ -7,7 +7,14 @@
     position:fixed;
     width:100%;
 }
-h1{
-    font-weight:normal; 
+.heading_h{  
+    font-style: normal;
     text-decoration: none;
+}
+@media (max-width:912px){
+    .heading_h{
+        font-size:14px;
+        font-style: normal;
+        text-decoration: none;
+    }
 }

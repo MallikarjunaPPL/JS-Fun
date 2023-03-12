@@ -1,0 +1,22 @@
+.container_pass{
+    background-color: aquamarine;
+    border-style:solid;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: darkmagenta;
+    width:300px;
+    text-align: center;
+    height:100px;
+    display:flex;
+    margin:5px;
+}
+.cont_main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading_h2{
+    font-size:23px;
+    color:black;
+    margin:3px;
+}

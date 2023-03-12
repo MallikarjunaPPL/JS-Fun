@@ -6,13 +6,12 @@
     margin-top:72px;
     margin-left:20px;
     margin-right:20px;
-   
   }
  .load{
    position: absolute;
    top:50%;
    bottom:50%;
-   margin-left: 700px;
+   margin-left: 550px;
    text-align: center;
  }
  @media (max-width:912px){
